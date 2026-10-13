@@ -1,0 +1,86 @@
+[
+  {
+    "question": "When does a small merchant receive UPI money?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "T+1",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "A large merchant above Rs.10 lakh monthly receives a Rs.4,000 UPI payment. What MDR and GST do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "20.00",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "A large merchant above Rs.10 lakh monthly receives a Rs.1,50,000 UPI payment. What do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "29.50",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "Does the merchant get MDR back for a refund within 3 hours?",
+    "as_of_date": "2026-08-20",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "reversed in full",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "Does the merchant get MDR back for a refund within 3 hours?",
+    "as_of_date": "2026-09-05",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "not returned",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "What does the FAQ say about the MDR cap, and is the FAQ right?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "incorrect",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "Can a customer pay Rs.1,00,000 twice in one day to a merchant?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "No",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "I closed my account yesterday. When will I get my money?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "10 working days",
+    "expected_citation": "policy_master_v1.md"
+  },
+  {
+    "question": "Does the policy allow me to settle card payments same day?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "T+2",
+    "expected_citation": "policy_master_v1.md"
+  },
+  {
+    "question": "Does the FAQ correctly say there is no upper MDR fee limit?",
+    "as_of_date": "2026-07-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "no upper fee limit",
+    "expected_citation": "policy_master_v1.md"
+  },
+  {
+    "question": "What is the MDR on a Rs.4,000 UPI transaction for a large merchant?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "20.00",
+    "expected_citation": "circular_2026_08_amendment.md"
+  },
+  {
+    "question": "What is the MDR cap for large merchants after 1 August 2026?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "25",
+    "expected_citation": "circular_2026_08_amendment.md"
+  }
+]

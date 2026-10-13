@@ -73,7 +73,7 @@ def ask(question, as_of_date="2026-08-15"):
         )
 
     # MDR cap / FAQ correctness
-    if "faq" in q or ("cap" in q and ("right" in q or "upper" in q or "limit" in q)):
+    if "faq" in q or "cap" in q or "upper limit" in q:
         if d >= date(2026, 8, 1):
             return result(
                 "The FAQ says there is no upper fee limit. That is incorrect: "
